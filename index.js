@@ -55,6 +55,7 @@ genText.addEventListener("click", function() {
     "I wish you were here, or I was there, or we were together anywhere",
     "Distance means so little when someone means so much",
     "You bring happiness into my life",
+    "Vem pra Australia, tenho um playstation"
   ]
   const textEl = document.querySelector(".textMessage")
   textEl.textContent = messages[Math.floor( Math.random()*messages.length )]
